@@ -6,4 +6,4 @@ This contains the projects used for the course [Unreal Engine 5: One Course Solu
 
 A simple scene created as part of the course
 
-https://github.com/realityforge/course-unreal-engin5-one-course-solution-for-material/blob/main/MovieRenders/NightScene.mp4
+https://raw.githubusercontent.com/realityforge/course-unreal-engin5-one-course-solution-for-material/main/MovieRenders/NightScene.mp4
