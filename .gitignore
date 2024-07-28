@@ -71,3 +71,12 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore content thatis just used for learning purposes
+Content/STF
+Content/UnrealSensei
+
+
+# This content is actually used but too large for GitHub
+# without LFS so we assume it will just be reinstalled per checkout
+Content/BlackAlder
