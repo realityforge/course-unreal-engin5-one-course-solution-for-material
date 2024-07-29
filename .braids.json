@@ -1,0 +1,15 @@
+{
+  "config_version": 1,
+  "mirrors": {
+    "Plugins/MaterialMelody": {
+      "url": "https://github.com/realityforge/MaterialMelody.git",
+      "branch": "main",
+      "revision": "71936d5834c19e42d7816f458246052b37f62221"
+    },
+    "Plugins/RuleRanger": {
+      "url": "https://github.com/realityforge/RuleRanger.git",
+      "branch": "main",
+      "revision": "198d4ed58e59a2465fcb10c4b2378ab1cdb64d2a"
+    }
+  }
+}
