@@ -61,7 +61,11 @@ TextureFilter FGLTFTextureUtilities::GetDefaultFilter(TextureGroup LODGroup)
 	}
 }
 ```
-* Can we make a asset validator that makes sure that certain assets are not baked/packaged?
+* Material Parameter:
+  * Add check to ensure that a material parameter exists matches a certain value. So some options can be set during development
+    but changed at shipping time. For example, Brightness controls set during development phase should be changed to adjusting brightness
+    on Texture import when you ship.
+* Can we make an asset validator that makes sure that certain assets are not baked/packaged?
 * Native Class checks:
   * Add naming convention check for native classes/structs
   * Add naming convention check for native classes/structs properties and functions
@@ -72,10 +76,6 @@ TextureFilter FGLTFTextureUtilities::GetDefaultFilter(TextureGroup LODGroup)
   * Add matcher so can match native classes from specific modules
   * Add matcher so can match meta=(IsBlueprintBase=true)
 * ControlRig checks:
-  * Ensure functions have groups/categories and descriptions
-  * Ensure variables have groups/categories and descriptions
-  * Ensure that there are no loose nodes
-  * Ensure that Blueprint is compiled
   * Add "_FunctionLibrary" to ControlRigs that are just collections of functions and no ForwardSolve? Do it via Variants mechanism
 * Blueprint checks:
   * Add check to ensure that every Blueprint (that inherits from a specific class?) has a Thumbnail specified
